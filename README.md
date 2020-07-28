@@ -27,11 +27,28 @@ Pyperclip needs to be installed:
 if you have trouble with installing pyperclip, see:
 https://pypi.org/project/pyperclip/
 
+**Not Implemented Error**
+
+You may get an error message that says: “Pyperclip could not find a copy/paste mechanism for your system.
+
+In order to work equally well on Windows, Mac, and Linux, Pyperclip uses various mechanisms to do this. Currently, this error should only appear on Linux (not Windows or Mac). You can fix this by installing one of the copy/paste mechanisms:
+
+**sudo apt-get install xsel** to install the xsel utility.
+**sudo apt-get install xclip** to install the xclip utility.
+**pip install gtk** to install the gtk Python module.
+**pip install PyQt4** to install the PyQt4 Python module.
+
+One of the above should fix the Linux issue.
+
+**Other Libraries/Modules Imported**
+
 **re** and **datetime** are also imported, but that shouldn't be problematic, as they are in the standard library.
 
 For the purposes of demonstration the libraries' information is stored in the following text files:
 
 rawLFPLfile.txt, rawNAFCfile.txt, rawCCCOfile.txt
+
+which need to be open separately.
 
 **1)** After you have the repo on your machine, run the main program, fullLibraryListFormatter.py
 
