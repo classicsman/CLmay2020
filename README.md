@@ -14,7 +14,7 @@ Charlestown Clark County Public Library (CCCO)
 
 then concatenates and formats that raw input into a text file that has taken out unwanted information and more neatly presents it versus what it would look like if I just simply pasted the raw information into a text file.
 
-The desire to do this program comes from having made such text files by hand every few weeks from the raw information, which takes about a half hour or more. This program should only take about five minutes, most of which is accessing the accounts on the various libraries' websites. The data is my actual accountdata, taken on July 26, 2020.
+The desire to do this program comes from having made such text files by hand every few weeks from the raw information, which takes about a half hour or more. This program should only take about five minutes, most of which is accessing the accounts on the various libraries' websites. The data is my actual account data, taken on July 26, 2020.
 
 
 **How to Run the Program:**
@@ -38,7 +38,7 @@ In order to work equally well on Windows, Mac, and Linux, Pyperclip uses various
 **pip install gtk** to install the gtk Python module.
 **pip install PyQt4** to install the PyQt4 Python module.
 
-One of the above might fix the Linux issue. Since I don't have a Linux computer, I don't know whether these utilities will play nice with pyperclip, or if the code needs to be adjusted for Linux users.
+One of the above might fix the Linux issue. Since I don't have a Linux computer, I don't know whether these utilities will play nice with pyperclip, or if the code would need to be adjusted for Linux users.
 
 **Other Libraries/Modules Imported**
 
@@ -48,7 +48,7 @@ For the purposes of demonstration the libraries' information is stored in the fo
 
 rawLFPLfile.txt, rawNAFCfile.txt, rawCCCOfile.txt
 
-which need to be open separately.
+which need to be opened separately.
 
 **1)** After you have the repo on your machine, run the main program, fullLibraryListFormatter.py
 
@@ -57,7 +57,7 @@ Then another prompt comes up for the NAFC info, so open the rawNAFCfile.txt file
 
 **Note:** The idea behind pyperclip is that it will take in whatever you have copied in your clipboard. The clipboard gets cleared when the program runs, and after each entry. This helps ensure that the same data won't be submitted twice and be formatted by two different modules. It also allows you to press 'enter' without copying if there are no books checked out at the library prompted. The output for that library will be "No Items Checked Out" in the text.
 
-**3)** Open the output file to see the result. It's in the same directory the program files are in. Its name structure is: LibraryItemsOut{current date}.txt where the {current date} in the file name will be the formatted date for the day you run the program.
+**3)** Open the output file to see the result. It's in the same directory as the program files. Its name structure is: LibraryItemsOut{current date}.txt where the {current date} in the file name will be the formatted date for the day you run the program.
 
 If you run the program again on the same day, that file will be overwritten, if you run it again on another day, that day's date will be in the file name and it will be a new file, with the previous one remaining.
 
