@@ -88,3 +88,5 @@ Analyze text and display information about it - I've implemented functionality t
 
 If any of these don't fully meet the listed requirement, perhaps they could be considered satisfactory under the *Other Features* item in the requirements.
 
+I also have well over the 5 required commits.
+
