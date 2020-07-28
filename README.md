@@ -4,7 +4,7 @@ Contributors
 rgleitz
 Instructions to setup/run this project:
 
-##The Library List Formatter is designed to take text input I copy from my library patron's account at each of the following libraries:
+##The Library List Formatter is designed to take text input that I copy from my library patron's account at each of the following libraries:
 
 Louisville Free Public Library (LFPL)
 New Albany Floyd County Public Library (NAFC)
