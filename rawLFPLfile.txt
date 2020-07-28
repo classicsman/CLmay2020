@@ -1,0 +1,11 @@
+Format	Call Number	Title	Assigned Branch	Due Date	Renewals Left (0 = none remaining or another patron has requested the item)
+	Item details	Book	652.8 PIP, 2002	Cryptography : a very short introduction	St Matthews	8/3/2020	2
+	Item details	Book	006.3 MAC 2012	Nine algorithms that changed the future : the ingenious ideas that drive today's computers	South Central	8/14/2020	3
+	Item details	Book	005.1 MUE 2017	Algorithms for dummies	St Matthews	9/1/2020	3
+	Item details	Book	005.1 COR 2013	Algorithms unlocked	Main	9/1/2020	3
+	Item details	Book	005.74 MOR 2005	Ambient findability	Main	9/1/2020	3
+Item details	Book	005.133 PYT MIL 2018	Begin to code with Python	Southwest	9/1/2020	0
+	Item details	Book	005.72 PET 2000	Code : the hidden language of computer hardware and software	Main	9/1/2020	2
+	Item details	Book	005.3 PYT BEL 2018	Get programming : learn to code with Python	Northeast	9/1/2020	3
+	Item details	Book	005.133 GO MCG 2019	Head first Go : a brain-friendly guide	Main	9/1/2020	3
+	Item details	Book	005.133 DOX 2016	Introducing Go : build reliable, scalable programs	Main	9/1/2020	3
