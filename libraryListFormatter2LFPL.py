@@ -19,7 +19,7 @@ textLFPL = pyperclip.paste()
 numOfItemsLFPL = len(re.findall(r'Item details', textLFPL))
 itemsOut = str(numOfItemsLFPL)
 
-# conditional statement to manipulate text, or if no items out, return a statement
+# Conditional statement to manipulate text, or if no items out, output a notation
 if textLFPL:
     
     makeOneLinedString = textLFPL.replace('\r\n', ',')
@@ -29,13 +29,6 @@ if textLFPL:
     deleteToTitleRemainingItems = re.sub(r',(.*?)\s\d\d\d\d\t', '\n', deleteToTitleFirstItem)
 
     deleteSubtitleAndBranch = re.sub(r'(\s:.*)?\t\w*(\s\w*)?\t', '   ', deleteToTitleRemainingItems)
-
-    # deleteSubtitle = re.sub(r':.*\d(\d)?\/\d(\d)?\/\d\d\d\d', '\d(\d)?\/\d(\d)?\/\d\d\d\d', deleteToTitleRemainingItems)
-
-    # deleteSubtitle = deleteToTitleRemainingItems.replace(re.findall(r'\:.*\d(\d)?\/', deleteToTitleRemainingItems) [0], '').replace(r'\d(\d)?\/') Doesn't work, either
-    # z = deleteToTitleRemainingItems.replace(re.findall(r'\t(.*?)\t', deleteToTitleRemainingItems)[0], '').replace('\s\t','\t') # <<<WAS GOLD BEFORE I REALIZED IT WAS!!!>>>
-
-    # deleteSubtitle = re.findall(r'\t[a-zA-Z]\t', '', deleteToTitleRemainingItems)
 
     tabsToSpaces = deleteSubtitleAndBranch.replace(r'(.*?)\t', '\s')
 

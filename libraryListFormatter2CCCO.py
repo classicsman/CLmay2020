@@ -19,7 +19,7 @@ textCCCO = pyperclip.paste()
 numOfItemsCCCO = len(re.findall(r'Due \d\d', textCCCO))
 itemsOut = str(numOfItemsCCCO)
 
-# conditional statement to manipulate text, or if no items out, return a statement
+# Conditional statement to manipulate text, or if no items out, output a notation
 if textCCCO:
     
     makeOneLinedString = textCCCO.replace('\r\n', '')
@@ -28,7 +28,7 @@ if textCCCO:
 
     deleteSubtitleAndDate = re.sub(r'(:.*)?\s\(\d\d\d\d\)', '', deleteToTitle)
 
-    # ____________
+    # ____________Current Work In Progress____________
 
     # deleteAuthorEtc = re.sub(r'By.*\s\d\d\d\d\d\d\d\d\s\s', '', deleteSubtitleAndDate)
 
@@ -36,7 +36,7 @@ if textCCCO:
 
     # >>>>>>  /\  Trying to get author/DLC # out
 
-    # ____________
+    # ____________Current Work In Progress____________
 
     deleteRenewLoan = re.sub(r'\w\w\w\w\w(\s\w\w\w\w)?$', '', deleteAuthorEtc)
 

@@ -1,10 +1,11 @@
 from datetime import datetime
 
-# bringing the library items together in one place
+# Bringing the library items together in one place
 from libraryListFormatter2LFPL import outputLFPL, numOfItemsLFPL
 from libraryListFormatter2NAFC import outputNAFC, numOfItemsNAFC
 from libraryListFormatter2CCCO import outputCCCO, numOfItemsCCCO
 
+# This serves a dual purpose - for the filename and the countdown
 now = datetime.now()
 
 # Date format for file name
@@ -22,10 +23,10 @@ seconds = countdown - days * 86400 - hours * 3600 - minutes * 60
 betterTimes = 'Only {} days, {} hours, {} minutes, and {} seconds left until we get a (HOPEFULLY) \
 better year in 2021!\n\n'.format(days, hours, minutes, seconds)
 
-# counts up all the items out
+# Totals all the items out
 totalItems = numOfItemsLFPL + numOfItemsNAFC + numOfItemsCCCO
 
-# concatenates Countdown and reformatted text files
+# Concatenates countdown and reformatted text files
 outputFile = open(f'library_books_out_{formattedDate}.txt', "w")
 outputFile.writelines(betterTimes + outputLFPL + outputNAFC + outputCCCO + \
                       str("\n\n\nTotal number of items checked out: {}".format(totalItems)))

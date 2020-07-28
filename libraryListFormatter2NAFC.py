@@ -19,7 +19,7 @@ textNAFC = pyperclip.paste()
 numOfItemsNAFC = len(re.findall(r'Due \d\d', textNAFC))
 itemsOut = str(numOfItemsNAFC)
 
-# conditional statement to manipulate text, or if no items out, return a statement
+# Conditional statement to manipulate text, or if no items out, output a notation
 if textNAFC:
     
     makeOneLinedString = textNAFC.replace('\r\n', '')
