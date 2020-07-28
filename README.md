@@ -1,10 +1,12 @@
-CODE LOUISVILLE PROJECT
-PYTHON MAY 2020
-Contributors
-rgleitz
-Instructions to setup/run this project:
+**CODE LOUISVILLE PROJECT**
 
-##The Library List Formatter is designed to take text input that I copy from my library patron's account at each of the following libraries:
+**PYTHON MAY 2020**
+
+R. Gleitz
+
+General information:
+
+The Library List Formatter is designed to take text input that I copy from my library patron's account at each of the following libraries:
 
 Louisville Free Public Library (LFPL)
 New Albany Floyd County Public Library (NAFC)
@@ -15,7 +17,7 @@ then concatenates and formats that raw input into a text file that has taken out
 The desire to do this program comes from having made such text files by hand every few weeks from the raw information, which takes about a half hour or more. This program should only take about five minutes, most of which is accessing the accounts on the various libraries' websites. The data is my actual accountdata, taken on July 26, 2020.
 
 
-###How to Run the Program:
+**How to Run the Program:**
 
 Python must be on your computer
 Pyperclip needs to be installed:
