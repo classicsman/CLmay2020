@@ -38,7 +38,7 @@ In order to work equally well on Windows, Mac, and Linux, Pyperclip uses various
 **pip install gtk** to install the gtk Python module.
 **pip install PyQt4** to install the PyQt4 Python module.
 
-One of the above should fix the Linux issue.
+One of the above might fix the Linux issue. Since I don't have a Linux computer, I don't know whether these utilities will play nice with pyperclip, or if the code needs to be adjusted for Linux users.
 
 **Other Libraries/Modules Imported**
 
