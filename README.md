@@ -9,7 +9,9 @@ General information:
 The Library List Formatter is designed to take text input that I copy from my library patron's account at each of the following libraries:
 
 Louisville Free Public Library (LFPL)
+
 New Albany Floyd County Public Library (NAFC)
+
 Charlestown Clark County Public Library (CCCO)
 
 then concatenates and formats that raw input into a text file that has taken out unwanted information and more neatly presents it versus what it would look like if I just simply pasted the raw information into a text file.
@@ -34,11 +36,14 @@ You may get an error message that says: “Pyperclip could not find a copy/paste
 In order to work equally well on Windows, Mac, and Linux, Pyperclip uses various mechanisms to do this. Currently, this error should only appear on Linux (not Windows or Mac). You can fix this by installing one of the copy/paste mechanisms:
 
 **sudo apt-get install xsel** to install the xsel utility.
+
 **sudo apt-get install xclip** to install the xclip utility.
+
 **pip install gtk** to install the gtk Python module.
+
 **pip install PyQt4** to install the PyQt4 Python module.
 
-One of the above might fix the Linux issue. Since I don't have a Linux computer, I don't know whether these utilities will play nice with pyperclip, or if the code would need to be adjusted for Linux users.
+One of the above might fix the Linux issue. Since I don't have a Linux computer, I don't know whether these utilities will play nice with pyperclip, or if the code would need to be adjusted by Linux users.
 
 **Other Libraries/Modules Imported**
 
@@ -65,6 +70,10 @@ If you run the program again on the same day, that file will be overwritten, if 
 
 **Current shortcomings:**
 
-I have not yet gotten the formatting right. This is going to take more effort with figuring out the proper string manipulation techniques and regex. I have made a good bit of progress, though. I got the beginning and ending elisions from the items fairly right, but I really need to figure out how to get the interior formatted correctly in some cases, as well as getting the various fields to line up under the headers properly. Getting them lined up is probably going to be my biggest challenge going forward.
+I have not yet gotten the formatting right. This is going to take more effort with figuring out the proper string manipulation techniques and regex. Having spent most of my time doing that, I have made a good bit of progress. I got the beginning and ending elisions from the items fairly right, but I really need to figure out how to get the interior formatted correctly in some cases, as well as getting the various fields to line up under the headers properly. Getting them lined up is probably going to be my biggest challenge going forward.
+
+My code needs to be dehydrated. There is a bit of repetitive stuff going on in there. Making it DRY is a near-future goal.
+
+I could also make it more modular. There are things I could separate out. Originally, what I have here started out as one file, so I've made some progress on that front.
 
 
