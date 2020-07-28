@@ -46,7 +46,7 @@ If you run the program again on the same day, that file will be overwritten, if 
 
 **Note:** In real use, I won't have to make separate text files for each library. While running the program, I can simply log in to each site, view my "Items Out" and then copy the info in turn as the prompts appear. It amounts to the same thing as the above instructions, but would save the text file making step, which is just here for demonstrating the program's functionality without accessing the libraries' proprietary systems with my username and password. I would have made code to input the text files directly, but I'm not going to use it in that way.
 
-###Current shortcomings:
+**Current shortcomings:**
 
 I have not yet gotten the formatting right. This is going to take more effort with figuring out the proper string manipulation techniques and regex. I have made a good bit of progress, though. I got the beginning and ending elisions from the items fairly right, but I really need to figure out how to get the interior formatted correctly in some cases, as well as getting the various fields to line up under the headers properly. Getting them lined up is probably going to be my biggest challenge going forward.
 
