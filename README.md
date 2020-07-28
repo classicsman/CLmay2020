@@ -76,4 +76,15 @@ My code needs to be dehydrated. There is a bit of repetitive stuff going on in t
 
 I could also make it more modular. There are things I could separate out. Originally, what I have here started out as one file, so I've made some progress on that front.
 
+**Implementations that should satisfy Code Louisville requirements:**
+
+Read data from an external file - not done directly by the program, but is copied and entered through the prompt.
+
+Implement a regular expression - done to ensure that the text format is always as desired. So far, most successful in the LFPL portion of code.
+
+Calculate and display data based on an external factor - I've implemented a countdown timer to display in my output text showing the time left until the new year and we finally put 2020 behind us. It updates in the output text every time the program is run.
+
+Analyze text and display information about it - I've implemented functionality that counts the number of items out at each library as well as the total out and displays that information in the output text.
+
+If any of these don't fully meet the listed requirement, perhaps they could be considered satisfactory under the *Other Features* item in the requirements.
 
